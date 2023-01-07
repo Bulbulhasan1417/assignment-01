@@ -5,12 +5,18 @@
 .header{
     background-image:url('../images/banner/banner3.png') ;
     background-repeat: no-repeat;
-    padding: 250px;
+    padding: 350px;
     background-size: cover;
 }
 nav{
-    color: white;
-    
+    color: white;  
+}
+.text-right{
+    float: right;
+    margin: 0;   
+}
+h1{
+    font-size: 50px;
 }
 .nav-title{
     font-size: 40px;
@@ -23,16 +29,13 @@ button{
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #FFFFFF;
-
-}
-div{
-    text-align: left;
-}
-h1{
-    text-align: left;
 }
 
-
+.main-text-right{
+    float: right;}  
+.nav-right{
+    float: right;
+}
 .div-images{
     background-image: url('../images/watch.png');
     background-repeat: no-repeat;
@@ -50,8 +53,33 @@ h1{
 .h-color{
     color: #FFFFFF;
 }
-
-
+/*  My Plans*/
+.Plans-container{
+    display: flex;
+    gap: 100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Plans{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+.Plans-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+.Plans-description{
+    color: #757575;
+}
+h2{
+    text-align: center;
+}
 
 
 
