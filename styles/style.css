@@ -1,3 +1,4 @@
+/* header */
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -5,7 +6,7 @@
 .header{
     background-image:url('../images/banner/banner3.png') ;
     background-repeat: no-repeat;
-    padding: 350px;
+    padding: 200px;
     background-size: cover;
 }
 nav{
@@ -21,7 +22,7 @@ h1{
 .nav-title{
     font-size: 40px;
 }
-button{
+.text-right{
     color: #005FAC;
     font-size: 15px;
     font-weight: 400px;
@@ -30,7 +31,6 @@ button{
     border-radius: 5px;
     background-color: #FFFFFF;
 }
-
 .main-text-right{
     float: right;}  
 .nav-right{
@@ -38,21 +38,16 @@ button{
 }
 .div-images{
     background-image: url('../images/watch.png');
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
+    display:inline-table;
+    text-align: left;
+}
+.image-title{
+    display: flex;
+    color: black;
+    text-align: left;
 }
 
-.div-black{
-    background-color: black;
-    padding: 200px;
-    background-size: cover;
-}
-.nav-color{
-    color: #FFFFFF;
-}
-.h-color{
-    color: #FFFFFF;
-}
 /*  My Plans*/
 .Plans-container{
     display: flex;
@@ -80,6 +75,81 @@ button{
 h2{
     text-align: center;
 }
+/* footer styles */
+.div-black{
+    background-color:#151414;
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;  
+}
+.footer-color{
+    color: #FFFFFF;
+}
+.footer-title{
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.h2-title{
+    text-align: left;
+}
+.footer-images{
+    display: flex;
+    gap: 20px;  
+}
+.footer-right{
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.button-contain{
+    gap: 20px;
+    
+}
+.button-footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.div-email{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    border: 2px;
+    border-color: wheat;
+    background-color:#151414 ;
+
+    padding: 10px 20px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+
+
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 20px;
+    height: 45px;
+    border-radius: 5px;
+    background: #005FAC;
+    margin-top: 10px;
+    
+}
+
+
+
+
 
 
 
